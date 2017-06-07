@@ -133,3 +133,35 @@ Operator zakresu to:
 - "/"
 - "^"
 
+//Michal L
+#Zestaw 2
+
+Konstruktor:
++ jest wywolywany w momencie tworzenia obiektu
+- musi posiadac przynajmniej jeden parametr
+- musi byc zdefiniowany w kazdej klasie
+- jest wywolywany w momencie niszczenia obiektu
+
+Operacje powodujace wystapienie wyjatku powinny byc umieszczone w bloku:
+- catch
++ try
+- exception
+- throw
+
+Klasa, od ktorej inna klasa dziedziczy to:
+- predykat
+- przewodnik
+- klasa dziedziczna
++ klasa bazowa
+
+Aby zabronic klasie pochodnej dostepu do elementow klasy bazowej uzyjemy:
+- static
+- public
++ private
+- protected
+
+Destruktor poprzedzony jest znakiem:
+- !
+- ?
++ ~
+- &
