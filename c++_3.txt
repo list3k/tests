@@ -165,3 +165,36 @@ Jak uzyskac dostep do elementow skladowych wskaznika:
 + ->
 - *
 - zadne z powyzszych
+
+//Michal L
+#Zestaw 3
+
+Parametrem konstruktora kopiujacego jest:
+- wartosc obiektu
++ referencja do obiektu
+- wskaznik do obiektu
+- nie ma parametrow
+
+Ktory operator jest uzywany do dostepu do struktury przez wskaznik?
++ ->
+- >>
+- ::
+- .
+
+Ktora z ponizszych funkcji / typow funkcji moze zostac przeladowana?
+- funkcja statyczna (static)
++ funkcja wirtualna (virtual)
+- odpowiedzi 1 i 2 - funkcje static i virtual
+- zadne z powyzszych
+
+Ktory z elementow dziedziczony jest przez klase pochodna:
+- kontruktor
+- destruktor
++ funkcje
+- operator przypisania (=)
+
+Ile konstruktorow domyslnych dozwolonych jest dla 1 klasy?
++ jeden
+- dwa
+- trzy
+- nieograniczona ilosc
