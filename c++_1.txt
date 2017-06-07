@@ -136,3 +136,36 @@ Operacje przypisania dokonujemy za pomocą znaku:
 - +
 - *
 
+// Michal L - Pytania CPP
+
+#Zestaw 1
+
+W jaki sposob deklarujemy glowna funkcje main?
+- main(int argc, char* argv[]) {}
++ int main () {}
+- void main {} []
+- bool main [] {}
+
+W danym fragmencie kodu: int main() { ... int k; std::cout << k << std::endl; ..} - Jaka wartosc "k" zostanie wyswietlona na ekran?
++ przypadkowa, smieci z pamieci
+- 0
+- 32767
+- -32767
+
+Funkcja, ktora nic nie zwraca ma przed nazwa:
+- int
++ void
+- static
+- bool
+
+Zmienna, ktora moze przechowac adres innej zmiennej to:
++ wskaznik
+- referencja
+- obiekt
+- rekurencja
+
+Ktora z dyrektyw sluzy do definiowania makr?
+- #include
++ #define
+- #pragma
+- *macro
