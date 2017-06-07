@@ -136,4 +136,36 @@ Wybierz poprawny sposob dodawania elementow (np. 5) na koncu wektora vector<int>
 + values.push_back(5);
 - values.pop_back(5);
  
+// Michal L - Pytania STL
 
+#Zestaw 1
+
+List to:
+- iterator
+- algorytm
++ kontener
+- funkcja wirtualna
+
+Wielkosc kontenera array:
++ jest stala
+- jest zmienna
+- moze byc zmieniona tylko przez kompilator
+- moze byc zmieniona dowolona ilosc razy
+
+Kontenerem sekwencyjnym NIE jest:
+- vector
+- array
+- deque
++ set
+
+Kontenerem asocjacyjnym jest:
+- vector
+- deque
+- list
++ map
+
+Kontener map przechowuje elementy:
++ w parach jako kombinacja klucza i wartosci (key, value)
+- w losowym porzadku
+- w zewnetrznych plikach .txt
+- tylko wskazniki do zewnetrznych tablic
